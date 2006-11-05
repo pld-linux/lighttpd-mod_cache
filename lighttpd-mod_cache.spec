@@ -1,4 +1,5 @@
 Summary:	Cache (reverse-proxy) plugin for lighttpd
+Summary(pl):	Wtyczka cache (odwrotnego proxy) dla lighttpd
 Name:		lighttpd-mod_cache
 Version:	1.0
 Release:	0.1
@@ -11,9 +12,15 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_sysconfdir	/etc/lighttpd
 
 %description
-Mod-Cache is a cache(reverse-proxy) plugin for lighttpd, which works
+Mod-Cache is a cache (reverse-proxy) plugin for lighttpd, which works
 like Squid with similar configuration. However mod_cache is faster and
 more effective than Squid because it based on powerful Lighttpd.
+
+%description -l pl
+mod_cache to wtyczka cache (odwrotnego proxy) dla lighttpd, dzia³aj±ca
+tak jak Squid i maj±ca podobn± konfiguracjê. Jednak mod_cache jest
+szybsza i bardziej efektywna od Squida, poniewa¿ jest oparta na
+potê¿nym Lighttpd.
 
 %prep
 %setup -q
