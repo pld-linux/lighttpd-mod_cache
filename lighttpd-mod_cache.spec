@@ -5,7 +5,7 @@ Version:	1.0
 Release:	0.1
 License:	BSD
 Group:		Networking/Daemons
-URL:		http://www.linux.com.cn/tag/mod-cache
+URL:		http://www.linux.com.cn/modcache/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_libdir		%{_prefix}/%{_lib}/lighttpd
