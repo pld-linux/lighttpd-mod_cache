@@ -1,5 +1,5 @@
 Summary:	Cache (reverse-proxy) plugin for lighttpd
-Summary(pl.UTF-8):   Wtyczka cache (odwrotnego proxy) dla lighttpd
+Summary(pl.UTF-8):	Wtyczka cache (odwrotnego proxy) dla lighttpd
 Name:		lighttpd-mod_cache
 Version:	1.0
 Release:	0.1
