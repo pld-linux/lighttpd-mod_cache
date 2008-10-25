@@ -4,7 +4,7 @@ Name:		lighttpd-mod_cache
 Version:	1.0
 Release:	0.1
 License:	BSD
-Group:		Networking/Daemons
+Group:		Networking/Daemons/HTTP
 URL:		http://www.linux.com.cn/modcache/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
