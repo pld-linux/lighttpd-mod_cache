@@ -1,11 +1,14 @@
+# TODO
+# - should use patch, not complete source?
 Summary:	Cache (reverse-proxy) plugin for lighttpd
 Summary(pl.UTF-8):	Wtyczka cache (odwrotnego proxy) dla lighttpd
 Name:		lighttpd-mod_cache
-Version:	1.0
+Version:	1.8.3
 Release:	0.1
+#Source0:	http://lighttpd-improved.googlecode.com/files/lighttpd-1.4.26.modcache.v.%{version}-2.tar.gz
 License:	BSD
 Group:		Networking/Daemons/HTTP
-URL:		http://www.linux.com.cn/modcache/
+URL:		http://code.google.com/p/lighttpd-improved/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_libdir		%{_prefix}/%{_lib}/lighttpd
@@ -31,8 +34,6 @@ potężnym Lighttpd.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT
-
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
 
